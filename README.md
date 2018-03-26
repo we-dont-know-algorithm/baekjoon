@@ -2,6 +2,6 @@
 
 ## 기타 
 
-* [터미널에서 백준 제출하기](https://github.com/lll4592/submit-tool)
+* [터미널에서 백준 제출하기: submit-tool](https://github.com/lll4592/submit-tool)
 
 
