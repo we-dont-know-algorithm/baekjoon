@@ -1,11 +1,10 @@
 #!/bin/python3
 
-apart = [[0] * 14 for i in range(14)]
+apart = [[0] * 14 for i in range(15)]
 # 14*14 매트릭스 생성
 
 for idx in range(14):
     apart[0][idx] = idx + 1
-    apart[idx][0] = 1
 
 def find(a,b):
     if b == 1 :
