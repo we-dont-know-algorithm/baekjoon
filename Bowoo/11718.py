@@ -1,7 +1,6 @@
-for i in range(100):
-    s = ''
-    s = input('input:')
-    if s != '':
-        print(s)
-    else:
-        break
+import sys
+
+a = sys.stdin.readlines()
+
+for line in a:
+    print(line, end="")
