@@ -6,7 +6,6 @@ def isGroupword(word):
     for el in word[1:]:
         if el != pre and el in _dict.keys():
             return False
-
         if el not in _dict.keys():
             _dict[el] = 1
 

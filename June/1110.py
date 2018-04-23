@@ -13,3 +13,4 @@ while True:
     cnt +=1
     if num == N:
         break
+print(cnt)
